@@ -1,0 +1,13 @@
+.reveal pre code {
+  background: white;
+}
+
+h1{
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+}
+
+.background_title h2{
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+}

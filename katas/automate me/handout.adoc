@@ -1,0 +1,15 @@
+= automate me
+
+== product idea
+
+* you are part of dynamic, fast growing ecommerce business
+* you were growing with *HUGE* and complex monolithic code base
+* you and your team where tasked to build in-house marketing automation suite
+* your goal is to create a tool for marketing teams, where they can define,
+build, report, track and manage customers you journeys
+* you will be communicating with customers over emails, push, sms and webpage
+* you want to have a capping for amount of communication with customers
+* "right moment" is *the thing* and you need a system which optimizes delivery
+of messages to customers
+* you can expect over 5k of incoming messages per second and over 2b of messages
+being sent to customers a month

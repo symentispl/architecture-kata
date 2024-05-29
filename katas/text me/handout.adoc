@@ -1,0 +1,12 @@
+= text me
+
+== product idea
+
+* Company wants to develop a system for marketing agencies to help them build SMS/MMS based marketing campaigns
+* System should be available for marketing agency employees to create and manage campaigns,
+* Agency employees should be able to track progress of the campaign and its profitability
+* Our company as a part of the system will act as an SMS/MMS broker, and it plans to have connectivity to all EU GSM providers
+* In many cases SMS campaigns are part of a larger multichannel campaigns, so it should be easy to integrate it with voice, TV and Internet channels
+* System should be able to handle 5000 incoming messages per second in peak hours
+* Mobile phone number is considered as a personal data and thus this information should not leave boundaries of the country, system should be PII complaint
+* First version of the system should be available in a 4 month time for a big marketing campaign in all EU countries

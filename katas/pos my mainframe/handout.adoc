@@ -1,0 +1,26 @@
+= POS my mainframe
+
+== Product idea
+
+* Big US corporation is an owner of system which manages reward and loyalty cards,
+this corporation manufactures and sells electronic cards, POS terminals and access to software system
+which allows merchants to create, manage, run and execute loyalty programs
+* They own over 80% of US market with over 20000 merchants registered, running over 30000 loyalty programs, with approximately 250,000,000 cards registered in the system
+* During peak seasons they have 5000000 transactions processed daily in the system, however on average they process 1000000 a day
+* System is running on a mainframe, written in COBOL
+* POS terminals in stores record all card transactions and send them in batches to a mainframe using dialup FTP
+* Some large merchants have a special intermediate servers which aggregate batches
+* Merchants have access to a system over „green screen” terminals
+* All loyalty programs are developed as a customizations in code and deployed to a mainframe
+* There is fraud detection and reporting (BI) subsystem running
+* They want to explore new markets, Europe in particular
+* Current system constraints
+** dial up will be expensive over the ocean
+** buying mainframe for regions will cost zillions of dollars
+** European competition has „online” systems build for „Internet age”
+* Rewrite whole thing in an „open systems”
+* Gradually migrate US customers, there will be no day „0” migration
+* New system will also fill big functional „gap”, an ability to build „front office” web sites for merchant so they can build loyalty programs using web as a marketing channel
+* Reporting engine is a brainchild of company CTO, and it is there to stay forever,
+reporting engine rewrite is not in the scope of the project
+* However new system has to use it,

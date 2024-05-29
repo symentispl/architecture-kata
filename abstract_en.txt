@@ -1,0 +1,23 @@
+Musicians play long hours to master their skills, athletes spend hours in gym,
+programmers code till the dawn, they all practice to master their skills.
+How does the architect become an expert?
+Architectural Kata is a meeting in a form of a workshop, during which, participants
+will have the opportunity to design the architecture of an imaginary system.
+In the real world, we rarely encounter, on a daily basis, the situation in which
+we can create the architecture of the system from scratch. There are a lot of
+courses and books where you can gain or expand your knowledge in this field, but there are
+not many opportunities to practice you architecture skills.
+Architectural Kata is an exercise that helps understand what the meaning of
+software architecture is for various people, what forces influence the design of the
+the system, how the decisions, taken at an early stage of the project
+impact final system design and how important it is to understand the assumptions
+and limitations of technology. We will also experience how vital to our skills
+is the communication with the team members.
+During the meeting, you will have the opportunity to work in a group,
+where you will create the system architecture for an imaginary problem.
+After presenting the concept of the product, you will be divided into groups of 3 or 4,
+and you'll get 90 minutes of time to create the architecture.
+After 90 minutes you will have to present your architecture to the whole group,
+to justify the choice of the technology and to defend your decision till the "last drop of blood."
+If you are interested in a retrospective of such workshops you can blog post at
+https://geekyprimitives.wordpress.com/2013/01/18/dojo-kata-and-software-architecture/.

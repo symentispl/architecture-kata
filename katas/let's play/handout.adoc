@@ -1,0 +1,13 @@
+= Let's play
+
+== Product idea
+
+* Online implementation of popular board game „Carcassone”
+* People can play over web browser and smart phones, tablets, embedded in Facebook and Google+
+* People can play offline, they get notifications over email, social networks and SMS when there is time for their next move
+* People choose which extensions they are going to use during play
+* Game lasts until somebody reaches x points (we have to recalculate score every time)
+* Every player can play in as many games as he/she wants
+* Players can play in tournaments
+* Promotional code with access to game added to every sold copy (800000 copies sold every year), we expect 80% conversion ratio, so expect steady growth year over year
+* Investor doesn’t want to invest to much into new hardware and infrastructure, he already hosts a couple of other browser based games in its own datacenter.

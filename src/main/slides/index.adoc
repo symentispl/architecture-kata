@@ -1,0 +1,257 @@
+= Architecture Kata
+by Jarosław Pałka
+:idprefix:
+:stem: asciimath
+:backend: html
+:source-highlighter: pygments
+:pygments-style: tango
+:revealjs_history: true
+:revealjs_theme: night
+:imagesdir: images
+:customcss: css/custom.css
+
+== about us
+
+http://symentis.pl[Symentis]
+
+*Jarosław Pałka* ,
+Allegro.tech, JVM, graphs and recently Pony,
+hates everything, +
+especially lack of humor and critical thinking, +
+too old for rock'n'roll
+
+== agenda
+
+* our goals, fun is yours
+* setting the ground rules
+* architecture committees formation
+* design phase
+* retrospection
+
+== code of conduct
+
+we are all adults, +
+and I assume intelligent human beings
+
+so that's why there is only one rule
+
+respect in tha hood
+
+[%notitle]
+== never ever
+*never, ever tell* +
+*someone something you wouldn't like to hear*
+
+== architecture kata
+
+
+[role="background_title"]
+=== architecure
+
+image::structure.jpg[background, size=cover]
+
+=== ... purpose and structure ...
+
+architecture should answer two fundamental questions +
+what is the structure of the system? +
+what is the purpose of this structure?
+
+=== kata
+
+image::940.jpg[background, size=cover]
+
+=== ... a practice ...
+
+[quote, Wikipedia]
+Kata originally were teaching and training methods by which successful combat techniques were preserved and passed on. Practicing kata allowed a company of persons to engage in a struggle using a systematic approach, rather than as individuals in a disorderly manner
+
+== let the struggle begin
+
+you wonder what these things have in common?
+
+=== how to become developer?
+
+[%step]
+* you study programming paradigms
+* you study programming languages
+* you study frameworks
+* you write code and write code, and
+* .... surprise you write even more code ....
+
+=== how to become architect?
+
+=== books?
+
+image::books.jpg[background, size="cover"]
+
+[%notitle]
+=== !
+
+there are many about architecture patterns, +
+not so many about how to apply these, +
+how to evaluate architecture and evolve the system
+
+[role="background_title"]
+=== university courses?
+
+image::College-Drinking.jpg[background, size=cover]
+
+[role="background_title"]
+=== oops, wrong picture
+
+image::image_studieren_ar__1_.jpeg[background, size=cover]
+
+[%notitle]
+=== !
+
+or trainings?
+
+hands up who had architecture course at university, +
+or who attended architecture training which actually learned you something you applied in real life
+
+[role="background_title"]
+=== on the job?
+
+image::1331622846762_2603379.png[background, size=cover]
+
+[%notitle]
+=== !
+
+how often you get a chance to create architecture?
+
+it's either your legacy or somebody draw it (yagh) for you
+
+=== pimp my skill!!!
+
+=== !
+
+image::o-BEST-RUNNING-BOOKS-facebook.jpg[background, size=cover]
+
+=== !
+
+image::Guitar.jpg[background, size=cover]
+
+=== you need to practice
+
+== architecture kata
+
+Architectural Kata is an idea developed by Ted Neward and inspired by Fred Brooks „Design of the design”
+
+It is a way to:
+
+* practice process of designing systems,
+* practice how to communicate architecture,
+* practice „critical thinking”
+
+=== what will happen next
+
+* your „customer” will present a „product idea”, you need to propose architecture of a software system
+* you will spent next 90 minutes in groups designing a system
+* you will present your „great design” in front of others
+* you will have to justify your architecture
+* vote! for best architecture
+
+=== ground rules
+
+* Internet access is banned for next 90 minutes
+* you may ask the „customer” any question about the project
+* you must be prepared to present a rough architectural vision of the project and defend questions about it
+
+=== ground rules
+
+* you must be prepared to ask questions, about others' presentations
+* you may safely make assumptions about technologies you don't know well as long as those assumptions are clearly defined and spelled out
+
+=== ground rules
+
+* you may not assume you have hiring/firing authority over the development team
+* any technology is fair game (but you must justify its use)
+
+[role="background_title"]
+== go to drawing boards!
+
+image::whiteboard.jpg[background, size=cover]
+
+== wait!
+
+image::https://static.pexels.com/photos/39080/stop-shield-traffic-sign-road-sign-39080.jpeg[background, size=cover]
+
+[role="background_title"]
+== you need tools
+
+image::https://static.pexels.com/photos/316465/pexels-photo-316465.jpeg[background, size=cover]
+
+== to design system
+
+== CRC cards
+
+[quote,,Agile Modeling]
+  A Class Responsibility Collaborator (CRC) model (Beck & Cunningham 1989; Wilkinson 1995; Ambler 1995) is a collection of standard index cards that have been divided into three sections, as depicted in Figure 1. A class represents a collection of similar objects, a responsibility is something that a class knows or does, and a collaborator is another class that a class interacts with to fulfill its responsibilities. Figure 2 presents an example of two hand-drawn CRC cards.
+
+=== !
+
+image::https://gdstechnology.blog.gov.uk/wp-content/uploads/sites/31/2015/11/IMG_0091.jpg[alt]
+
+=== !
+
+image::http://2.bp.blogspot.com/-ctdTfElMCbs/UR6hSQsVXFI/AAAAAAAAJww/o5AmfJ0b1HE/s1600/Farming+CRC+Cards.jpg[]
+
+== to visualize system
+
+== C4 diagrams
+
+[quote,Simon Brown,Coding The Architecture]
+The "C4 model" is a hierarchical way to think about the static structures
+of a software system in terms of containers, components and classes (or code)
+
+=== !
+
+[quote,Simon Brown,Coding The Architecture]
+A software system is made up of one or more containers (web applications, mobile apps,
+desktop applications, databases, file systems, etc), each of which contains one or more
+components, which in turn are implemented by one or more classes (or code).
+
+=== context
+
+A System Context diagram is a good starting point for
+diagramming and documenting a software system,
+allowing you to step back and see the big picture. Draw
+a diagram showing your system as a box in the centre,
+surrounded by its users and the other systems that it
+interacts with. Detail isn't important here as this is your
+zoomed out view showing a big picture of the system
+landscape. The focus should be on people (actors,
+roles, personas, etc) and software systems rather than
+technologies, protocols and other low-level details.
+
+=== containers
+
+The next step is to illustrate the high-level technology
+choices with a Container diagram. A "container" is
+something like a web application, mobile app, desktop
+application, database, file system, etc. Essentially, a
+container is a separately deployable unit that executes
+code or stores data. The Container diagram shows the
+high-level shape of the software architecture and how
+responsibilities are distributed across it. It also shows
+the major technology choices and how the containers
+communicate with one another.
+
+=== components
+
+Next you can zoom in to each container further to
+visualise the major structural building blocks and their
+interactions. The Component diagram shows how a
+container is made up of a number of components,
+what each of those components are, their
+responsibilities and the technology/implementation
+details. If your components don’t all fit on a single
+diagram, create multiple versions showing different
+portions of the container.
+
+[role="background_title"]
+== ladies & gentleman
+
+image::http://asepromedia.com/Images/member-bio-img-2.jpg[background]
+
+== THE PROBLEM
